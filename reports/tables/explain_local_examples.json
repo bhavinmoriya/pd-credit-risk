@@ -1,0 +1,41 @@
+{
+  "lowest_pd": {
+    "row_id": 159,
+    "pd": 0.016832261224227627,
+    "actual_default": 0,
+    "decision": "approve",
+    "units": "log-odds",
+    "reason_codes": [
+      "people_liable = 2  (+0.17 log-odds)",
+      "telephone = no  (+0.08 log-odds)",
+      "number_credits = 2  (+0.07 log-odds)",
+      "foreign_worker = yes  (+0.02 log-odds)"
+    ]
+  },
+  "highest_pd": {
+    "row_id": 938,
+    "pd": 0.8412068588208838,
+    "actual_default": 1,
+    "decision": "decline",
+    "units": "log-odds",
+    "reason_codes": [
+      "duration = 60  (+1.14 log-odds)",
+      "purpose = education  (+0.44 log-odds)",
+      "property = unknown / no property  (+0.39 log-odds)",
+      "status = 0-200 DM  (+0.34 log-odds)"
+    ]
+  },
+  "near_cutoff": {
+    "row_id": 463,
+    "pd": 0.16608318153992357,
+    "actual_default": 0,
+    "decision": "approve",
+    "units": "log-odds",
+    "reason_codes": [
+      "status = 0-200 DM  (+0.34 log-odds)",
+      "installment_rate = 4  (+0.25 log-odds)",
+      "credit_history = existing credits paid duly till now  (+0.16 log-odds)",
+      "telephone = no  (+0.08 log-odds)"
+    ]
+  }
+}

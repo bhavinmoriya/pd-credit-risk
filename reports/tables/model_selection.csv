@@ -1,0 +1,7 @@
+model,mean_log_loss,within_1se_of_best,complexity
+lr,0.5066095408130757,True,0
+lr_spline,0.5039542723282497,True,1
+rf,0.5059219651687777,True,2
+rf_cal,0.5030558088997357,True,2
+lgbm,0.5049019868946306,True,3
+lgbm_cal,0.5084001410750767,True,3

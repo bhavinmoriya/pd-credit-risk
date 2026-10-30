@@ -1,0 +1,9 @@
+model,training sample,evaluated on,n_train,n_eval,auc,mean_pd,observed_default,pd_bias(pred-obs)
+LR (C=0.1),trained on all applicants,whole test set,750,250,0.8010666666666667,0.3039483223129212,0.3,0.003948322312921193
+LR (C=0.1),trained on all applicants,legacy-refused region,750,83,0.7064327485380116,0.5035629134300053,0.5421686746987951,-0.038605761268789895
+LR (C=0.1),trained on legacy-accepted only,whole test set,515,250,0.7647238095238096,0.24882138106487867,0.3,-0.05117861893512132
+LR (C=0.1),trained on legacy-accepted only,legacy-refused region,515,83,0.624561403508772,0.37340702289550975,0.5421686746987951,-0.1687616518032854
+LightGBM (fixed),trained on all applicants,whole test set,750,250,0.7899428571428572,0.2995118411082942,0.3,-0.0004881588917057811
+LightGBM (fixed),trained on all applicants,legacy-refused region,750,83,0.6912280701754386,0.5101455421792431,0.5421686746987951,-0.03202313251955202
+LightGBM (fixed),trained on legacy-accepted only,whole test set,515,250,0.7685333333333333,0.24428626545959753,0.3,-0.05571373454040246
+LightGBM (fixed),trained on legacy-accepted only,legacy-refused region,515,83,0.6532163742690058,0.37299335785538423,0.5421686746987951,-0.16917531684341092

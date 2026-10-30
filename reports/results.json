@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "fast": false,
+  "n_train": 750,
+  "n_test": 250,
+  "default_rate_train": 0.3,
+  "default_rate_test": 0.3,
+  "baseline_n_parameters": 49,
+  "events_per_variable": 4.6875,
+  "selected_model": "lr",
+  "test": {
+    "auc": 0.8010666666666667,
+    "gini": 0.6021333333333334,
+    "ks": 0.5028571428571429,
+    "brier": 0.1570863086893268,
+    "log_loss": 0.48182507769949473,
+    "ece": 0.0750584749617603,
+    "cal_slope": 1.180424963315178,
+    "citl": -0.02339698464923862,
+    "auc_ci": [
+      0.7335089357056431,
+      0.860129095976278
+    ]
+  },
+  "decision": {
+    "analytic_threshold": 0.16666666666666666,
+    "empirical_threshold_dev_oof": 0.16999999999999998
+  },
+  "importance_rank_corr_lr_vs_lgbm": 0.8736842105263156,
+  "runtime_seconds": 285.1
+}

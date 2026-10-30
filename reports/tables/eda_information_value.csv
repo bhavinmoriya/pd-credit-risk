@@ -1,0 +1,21 @@
+feature,information_value,strength
+status,0.6243143197861304,very strong/suspicious
+credit_history,0.2599343239235802,medium
+savings,0.2305104444160027,medium
+duration,0.19045176628022958,medium
+property,0.15002847545398174,medium
+purpose,0.1448157885824748,medium
+employment_duration,0.12657529428896955,medium
+other_installment_plans,0.09284029465851301,weak
+housing,0.09024526494954524,weak
+amount,0.0703555463727183,weak
+personal_status_sex,0.04848579236687284,weak
+foreign_worker,0.04242007520209401,weak
+age,0.03380198695701164,weak
+installment_rate,0.029339224615256485,weak
+job,0.021783424711004473,weak
+other_debtors,0.020383388222215124,weak
+number_credits,0.007143106772778069,useless
+telephone,0.004784191607831868,useless
+present_residence,0.0013742195395058435,useless
+people_liable,0.000609995535323213,useless

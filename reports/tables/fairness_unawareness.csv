@@ -1,0 +1,3 @@
+model_inputs,oof_auc,oof_log_loss,approval_rate@1/6
+all features,0.785552380952381,0.497080702866808,0.341
+without protected attributes,0.780547619047619,0.5012656050284305,0.323
